@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: 47.102.113.59
+    username: xiaoliu
+    password: 123
+    virtual-host: /xiaoliu
+    listener:
+      direct:
+        acknowledge-mode: manual
+server:
+  port: 10065
